@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WD Electronics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="js/electronic.js"></script>
+
+    <header class="navbar">
+        <div class="nav-menu" style="position: relative;" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+            <span>Menu</span>
+            <div id="menuSuggestions" class="menu-suggestions">
+                <div class="menu-item">Home</div>
+                <div class="menu-item">Products</div>
+                <div class="menu-item">Deals</div>
+                <div class="menu-item">Contact Us</div>
+                <div class="menu-item">About Us</div>
+            </div>
+        </div>
+
+        <div class="nav-search" style="position: relative;">
+            <input type="text" placeholder="What are you looking for?" class="search-input" id="searchInput" onkeyup="showSuggestions(this.value)">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+
+        <div class="nav-login">
+            <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+                <span>Login/Signup</span>
+            </a>
+        </div>
+
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+ 
+    <!--Second Head -->
+    <div class="tv"></div>
+
+     <!--Bank Offers -->
+    <h2 class="bank-heading">Exciting Bank Offers For You</h2>
+    <div class="bank">
+        <div class="bank-image"></div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="shop-section">
+        <h2 class="section-heading">What's Hot</h2>
+        <div class="box box1">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('sony.webp');"></div>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('philips.webp');"></div>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('haier.webp');"></div>
+            </div>
+        </div>
+        <div class="box box4">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('sonyplaystation.webp');"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Deals Section -->
+    <div class="Best-Deals">
+        <h2 class="section-heading">Best Deals</h2>
+        <div class="box box1">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('hp.webp');"></div>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('washing.webp');"></div>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('camera.webp');"></div>
+            </div>
+        </div>
+        <div class="box box4">
+            <div class="box-content">
+                <div class="box-image" style="background-image: url('redmitv.webp');"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deals --->
+    <div>
+        <h2 class="Deals-heading">Deals</h2>
+        <div class="Deals"></div>
+    </div>
+
+    <!-- Inner Chef -->
+    <div>
+        <h2 class="Inner-heading">Grand-Sales</h2>
+        <div class="Grand-Sales"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="foot-panel1">
+           Back to Top
+        </div>
+        <div class="foot-panel2">
+           <ul>
+              <p>Get to know us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About WD Electronics</a>
+              <a>Investor Relations</a>
+              <a>WD Electronics Device</a>
+              <a>WD Electronics Science</a>
+           </ul>
+           <ul>
+              <p>Make Money with us</p>
+              <a>Sell products on WD Electronics</a>
+              <a>Sell on WD Electronics Business</a>
+              <a>Sell apps on WD Electronics</a>
+              <a>Become an Affiliate</a>
+              <a>Advertise your Products</a>
+              <a>Self-Publish with us</a>
+              <a>Host an WD Electronics</a>
+           </ul>
+           <ul>
+              <p>WD Electronics Payment Products</p>
+              <a>WD Electronics Business Card</a>
+              <a>Shop with Points</a>
+              <a>Reload Your Balance</a>
+              <a>Investor Relations</a>
+           </ul>
+           <ul>
+              <p>Let Us Help You</p>
+              <a>Your Account</a>
+              <a>Your Oders</a>
+              <a>Shipping Rates & Policies</a>
+              <a>Returns & Replacements</a>
+              <a>Manage Your Content and Devices</a>
+              <a>Help</a>
+           </ul>
+        </div> 
+
+        <div class="foot-panel4">
+           <div class="page">
+              <a>Conditions of Use</a>
+              <a>Privacy Notices</a>
+              <a>Consumer Health Data Privecy Disclouser</a>
+              <a>Your Adds Privacy Choices</a>
+           </div>
+           <div class="copy-right">
+              © 1996-2024, WD Electronics.com, Inc. or its affiliates
+           </div>
+        </div>
+      </footer>
+      </body>
+</html> 
+
+

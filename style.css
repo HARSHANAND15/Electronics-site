@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu, .nav-search, .nav-login, .nav-cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.menu-suggestions {
+    display: none; 
+    position: absolute; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    z-index: 1000; 
+    width: 150px; 
+    top: 100%;
+    margin-top: 5px; 
+    left: 0; 
+}
+
+.menu-item {
+    padding: 10px; 
+    cursor: pointer; 
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; 
+}
+
+.nav-search {
+    background-color: #F1F1F1;
+    border-radius: 4px;
+    padding: 5px 10px;
+    flex-grow: 1;
+    max-width: 500px;
+}
+
+.suggestions {
+    border: 1px solid #ccc;
+    border-top: none;
+    position: absolute; 
+    background-color: white;
+    z-index: 1000;
+    width: calc(100% - 20px); 
+    max-height: 150px; 
+    overflow-y: auto;
+    display: none; 
+    top: 100%; 
+    left: 0; 
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0; 
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.search-icon {
+    color: #000000;
+}
+
+.nav-menu i, .nav-login i, .nav-cart i {
+    font-size: 18px;
+}
+
+.nav-login, .nav-cart {
+    cursor: pointer;
+}
+
+
+
+/* tv  */
+.tv, .bank-image, .box-image, .Deals, .Inner-chef {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.tv {
+    height: 900px;
+}
+
+h2 {
+    text-align: center; 
+    color: #000000;
+    margin: 1rem;
+}
+
+.bank, .shop-section, .Best-Deals {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.bank-heading, .Deals-heading, .Inner-heading {
+    font-size: 2rem; 
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+.bank {
+    width: auto; 
+    color: #000000;  
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0px 10px;
+    padding: 0px 20px 20px;  
+    background-color: #FFFFFF; 
+    height: auto; 
+}
+
+.bank-image {
+    background-image: url('ICICI.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 100%; 
+    border: 1px solid #000;  
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.box-image {
+    width: 351px;
+    height: 450px;
+    margin: 1rem;
+}
+
+/* Backpack Deals  */
+.Deals {
+    background-image: url('acer.webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 100%; 
+    border-radius: 20px; 
+    margin: 20px auto; 
+    padding-right: 15px;
+}
+
+/* Grand Sales */
+.Grand-Sales {
+    background-image: url('grand\ sales.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 100%; 
+    border-radius:20px; 
+    margin: 20px auto; 
+    padding-right: 15px;
+}
+
+/* footer */
+.nav-menu .menu-item a {
+    text-decoration: none;
+    color: inherit; 
+}
+.nav-menu .menu-item a:hover {
+    color: #000000; 
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color:whitesmoke;
+    color: #000000;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2 {
+    background-color: white;
+    color: #000000;
+    height: 325px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.foot-panel3 {
+    background-color: white;
+    color: #000000;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    background-color: whitesmoke;
+    color: #000000;
+    height: 80px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.page {
+    padding-top: 25px;
+}
+
+.copy-right {
+    padding: 5px;
+} 
+
+
+

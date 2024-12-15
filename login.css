@@ -1,0 +1,118 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent; 
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Welcome and Thank You Messages */
+.welcome-message, .thank-you-message {
+    color: #000000;
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+/* Form Container with Color Changing Animation */
+.form-container {
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    animation: colorChange 6s infinite; 
+}
+
+/* Keyframes for Color Change Animation */
+@keyframes colorChange {
+    0% { background-color: #FFFFFF; }
+    33% { background-color: #e6f2ff; } 
+    66% { background-color: #f3e6ff; } 
+    100% { background-color: #FFFFFF; }
+}
+
+/* Form Styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.form button {
+    background-color: #2575fc; 
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #6a11cb; 
+}
+
+.form p {
+    margin-top: 15px;
+}
+
+.form p a, .form p span {
+    color: #6a11cb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CAPTCHA Styling */
+.captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.captcha span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
